@@ -81,6 +81,19 @@ body {
     display: none;
 }
 
+/*hero section*/
+.hero{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url("./images/malibuskate.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+
+}
+
 
 /* Media Queries */
 
@@ -92,7 +105,7 @@ body {
 }
 
 /* Tablet */
-@media (max-width: 758px) {
+@media (max-width: 768px) {
     html {
         font-size: 62.5%;
     }
@@ -119,6 +132,14 @@ body {
         padding:0.5rem;
         font-size: 2rem;
         
+    }
+
+    .navbar .navbar-nav a::after {
+        transform-origin: 0 0;
+    }
+
+       .navbar .navbar-nav a:hover::after {
+        transform: scaleX(0.2);
     }
 }
 
