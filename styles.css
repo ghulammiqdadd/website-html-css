@@ -17,7 +17,7 @@ body {
     font-family: 'Poppins', sans-serif;
     background-color: var(--bg);
     color: #fff;
-    /*min-height: 2000px;*/
+    min-height: 2000px;
 }
 /* navbar */
 .navbar {
@@ -103,11 +103,16 @@ body {
     height: 30%;
     bottom: 0;
     background: linear-gradient(0deg, rgba(1, 1, 3, 1) 8%, rgba(255, 255, 255, 0) 50%);
+    pointer-events: none;
+    z-index: 1;
+
 }
 
 .hero .content {
     padding: 1.4rem 7%;
     max-width: 60rem;
+    position:relative;
+    z-index: 2;
 }
 
 .hero .content h1 {
@@ -127,6 +132,7 @@ body {
     line-height: 1.4;
     font-weight: 100;
     text-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5); 
+    mix-blend-mode: difference;
 }
 
 .hero .content .cta {
@@ -139,6 +145,21 @@ body {
     border-radius: 0.5rem;
     box-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
     
+}
+
+/* About section */
+.about {
+    padding: 8rem 7% 1.4rem;
+}
+
+.about h2 {
+    text-align: center;
+    font-size: 2.6rem;
+    margin-bottom: 3rem;
+}
+
+.about h2 span {
+    color: var(--primary);
 }
 
 
