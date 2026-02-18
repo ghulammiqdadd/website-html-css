@@ -17,7 +17,7 @@ body {
     font-family: 'Poppins', sans-serif;
     background-color: var(--bg);
     color: #fff;
-    min-height: 2000px;
+    min-height: 3000px;
 }
 /* navbar */
 .navbar {
@@ -152,13 +152,13 @@ body {
     padding: 8rem 7% 1.4rem;
 }
 
-.about h2 {
+.about h2{
     text-align: center;
     font-size: 2.6rem;
     margin-bottom: 3rem;
 }
 
-.about h2 span {
+.about h2 span  {
     color: var(--primary);
 }
 
@@ -191,6 +191,25 @@ body {
     line-height: 1.6;
 }
 
+/* Produk section */
+.produk h2{
+     text-align: center;
+    font-size: 2.6rem;
+    margin-bottom: 0.5rem;
+}
+
+.produk h2 span  {
+    color: var(--primary);
+}
+
+.produk p {
+    text-align: center;
+    max-width: 30rem;
+    margin: auto;
+    font-weight: 100;
+    line-height: 1.6;
+
+}
 /* Media Queries */
 
 /* Laptop */
