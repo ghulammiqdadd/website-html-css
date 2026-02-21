@@ -210,6 +210,28 @@ body {
     line-height: 1.6;
 
 }
+
+.produk .row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+    justify-content: center;
+
+}
+
+.produk .row .produk-card{
+    text-align: center;
+    padding: 1rem;
+    flex: 0 1 20rem;
+}
+
+.produk .row .menu-card img{
+    width: 70%;
+    max-width: 70px;
+    display: block;
+    margin: 0 auto;
+    
+}
 /* Media Queries */
 
 /* Laptop */
