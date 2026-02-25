@@ -280,6 +280,19 @@ body {
   transform: scale(1.2);
 }
 
+.contact .row {
+    display: flex;
+    margin-top: 2rem;
+    background-color: #222;
+    flex-wrap: wrap;
+}
+
+.contact .row .map {
+    flex: 1 1 45rem;
+    width: 100%;
+    object-fit: cover;
+}
+
 /* Media Queries */
 
 /* Laptop */
