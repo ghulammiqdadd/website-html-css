@@ -17,7 +17,7 @@ body {
     font-family: 'Poppins', sans-serif;
     background-color: var(--bg);
     color: #fff;
-    min-height: 4000px;
+    min-height: 5000px;
 }
 /* navbar */
 .navbar {
@@ -284,7 +284,7 @@ body {
     display: flex;
     margin-top: 2rem;
     background-color: #222;
-    flex-wrap: wrap;
+    
 }
 
 .contact .row .map {
@@ -292,6 +292,23 @@ body {
     width: 100%;
     object-fit: cover;
 }
+
+.contact .row form{
+    flex: 1 1 45rem;
+    padding: 5rem 2rem;
+    text-align: center;
+}
+
+.contact .row form .input-group {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    background-color: var(--bg);
+    border: 1px solid #eee;
+    padding-left: flex;
+}
+
+
 
 /* Media Queries */
 
