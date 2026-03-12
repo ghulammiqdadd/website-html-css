@@ -225,13 +225,26 @@ body {
     flex: 0 1 20rem;
 }
 
-.produk .row .menu-card img{
+.produk .row .produk-card img{
     width: 50px;
     max-width: 200px;
     -o-object-fit: cover;
     display: block;
     margin: 0 auto;
-    
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.produk .row .produk-card img:hover{
+    transform: scale(1.1);
+}
+
+.produk .row .produk-card h3{
+    transition: 0.3s;
+}
+
+.produk .row .produk-card:hover h3{
+    color: var(--primary);
 }
 
 
